@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
 body {
-    background-color: slategray;
+    background-color: rgb(87, 209, 146);
     text-align: center;
 }
 
@@ -35,4 +43,20 @@ input {
 #greet:hover {
     background-color: mediumvioletred;
     cursor: pointer;
+}
+
+section, footer {
+    padding: 54px 0;
+
+}
+
+h1 {
+    color: white;
+    font-size: 5.5em;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
 }

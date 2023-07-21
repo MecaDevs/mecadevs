@@ -13,7 +13,7 @@ def greet():
     flash('Hello ' + str(request.form['name_input']) + ' prazer em conhecê-lo!')
     return render_template("mecadevs_homepage.html")
 
-@app.route("/medic_dropper")
+@app.route("/medic_dropper")    
 def medic_dropper_home_page():
     return render_template("medicdropper_homepage.html")
 

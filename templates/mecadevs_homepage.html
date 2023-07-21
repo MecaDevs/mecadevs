@@ -10,32 +10,39 @@
         <header>
             <div class="container">
                 <nav> 
-                    <a href="mecadevs_homepage.html"></a>
+                    <a href="https://mecadevs.onrender.com"></a>
                         <img src="https://raw.githubusercontent.com/MecaDevs/mecadevs/main/MecaDevs%20logo.png" alt="Logo">
                     <ul class="ul"> 
-                        <a href="mecadevs_homepage.html">Home</a>
+                        <a href="https://mecadevs.onrender.com">Home</a>
                         <a href="https://mecadevs.onrender.com/medic_dropper">Medic Dropper</a>
                         <a href="mecadevs_homepage.html">Services</a>
                         <a href="mecadevs_homepage.html">Contact</a>
                     </ul>
                 </nav>
-            </div>
-
-        </header>
-
-        <form action="greet" method="post">
+                <form action="greet" method="post">
             
-            <br>
-            <p>Hello new user, welcome to Meca Devs website!</p>
-            <br>
-            {% for message in get_flashed_messages()%}
-                <p> {{message}}</p>
-            {% endfor%}
-            <br>
-            <input type="text" name="name_input">
-            <br>
-            <br>
-            <input type="submit" value="Submit" id="greet">
-        </form>
+                    <br>
+                    <p>Hello new user, welcome to Meca Devs website!</p>
+                    <br>
+                    {% for message in get_flashed_messages()%}
+                        <p> {{message}}</p>
+                    {% endfor%}
+                    <br>
+                    <input type="text" name="name_input">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" id="greet">
+                </form>
+                <br>
+                <section class="banner">
+                    <div class="banner-text">
+                        <h1>MEDIC DROPPER</h1>
+                        <p>Juntos para um mundo mais seguro e saudável</p>
+                        <p>com uma máquina que lhe auxiliará com o armazenamento e consumo de medicamentos.</p>
+                        <a href="https://mecadevs.onrender.com/medic_dropper" class="btn">MEDIC DROPPER</a>
+                    </div>
+                </section>
+            </div>
+        </header>
     </body>
 </html>
