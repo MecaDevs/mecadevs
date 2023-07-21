@@ -14,27 +14,23 @@
                         <img src="https://raw.githubusercontent.com/MecaDevs/mecadevs/main/imgs/MecaDevs%20logo.png" alt="Logo">
                     <ul class="ul"> 
                         <a href="https://mecadevs.onrender.com">Home</a>
-                        <a href="https://mecadevs.onrender.com/medic_dropper">Medic Dropper</a>
+                        <a class="btn" href="https://mecadevs.onrender.com/medic_dropper">Medic Dropper</a>
                         <a href="mecadevs_homepage.html">Services</a>
                         <a href="mecadevs_homepage.html">Contact</a>
                     </ul>
                 </nav>
-                <form action="greet" method="post">
-            
-                    <br>
-                    <p>Hello new user, welcome to Meca Devs website!</p>
-                    <br>
-                    {% for message in get_flashed_messages()%}
-                        <p> {{message}}</p>
-                    {% endfor%}
-                    <br>
-                    <input type="text" name="name_input">
-                    <br>
-                    <br>
-                    <input type="submit" value="Submit" id="greet">
-                </form>
-                <br>
                 <section class="banner">
+                    <form action="greet" method="post">
+                        <p>Hello new user, welcome to Meca Devs website!</p>
+                        {% for message in get_flashed_messages()%}
+                            <p> {{message}}</p>
+                        {% endfor%}
+                        <input type="text" name="name_input">
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit" id="greet">
+                    </form>
+                    <br>
                     <div class="banner-text">
                         <h1>MEDIC DROPPER</h1>
                         <p>Juntos para um mundo mais seguro e saudável</p>
