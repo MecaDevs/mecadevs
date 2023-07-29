@@ -15,6 +15,7 @@ p {
     font: Shanti;
     font-size: 1.2em;
     margin: 20px;
+    text-align: left;
 }
 
 #Imagem1 {
@@ -26,9 +27,11 @@ p {
 
 #Imagem2 {
     margin: 10px 0 5px 0;
-    width: 700px;
-    position: absolute;
+    width: 400px;
     left: 50%;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
 }
 
 input {
