@@ -11,11 +11,20 @@ body {
 }
 
 p {
+    color: rgb(232, 229, 229);
+    font: Shanti;
+    font-size: 1.2em;
+    margin: 20px;
+    text-align: justify;
+}
+
+.slogan {
     color: white;
     font: Shanti;
     font-size: 1.2em;
     margin: 20px;
     text-align: left;
+    font-weight: bold;
 }
 
 #Imagem1 {
@@ -27,11 +36,11 @@ p {
 
 #Imagem2 {
     margin: 10px 0 5px 0;
-    width: 400px;
+    width: 600px;
     left: 50%;
     position: absolute;
-    top: 250px;
-    left: 1000px;
+    top: 290px;
+    left: 890px;
 }
 
 input {
@@ -68,6 +77,10 @@ h1 {
     padding: 10px 20px
 }
 
+.banner-text {
+    text-align: center;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -87,4 +100,15 @@ nav ul a {
     text-transform: uppercase;
     font-size: 14px;
     display: block;
+}
+
+#btnm {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font: Shanti;
+    text-align: center;
+    font-size: 1.3em;
 }
