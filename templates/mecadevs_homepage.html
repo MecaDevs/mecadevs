@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <meta charset = "UTF-8">
-        <title>MecaDevs</title>
-        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <nav> 
-                    <a href="https://mecadevs.onrender.com"></a>
-                        <img id="Imagem1" src="https://raw.githubusercontent.com/MecaDevs/mecadevs/main/imgs/MecaDevs%20logo.png" alt="Logo">
-                    <ul class="ul"> 
-                        <a id="btn"href="https://mecadevs.onrender.com">Início</a>
-                        <a href="https://mecadevs.onrender.com/medic_dropper">Medic Dropper</a>
-                        <a href="mecadevs_homepage.html">Serviços</a>
-                        <a href="https://mecadevs.onrender.com/parceiros">Parceiros</a>
-                        <a href="mecadevs_homepage.html">Contato</a>
-                    </ul>
-                </nav>
-                <section class="banner">
-                    <br>
-                    <div class="banner-text">
-                        <br>
-                        <br>
-                        <h1>MEDIC DROPPER</h1>
-                        <br>
-                        <p>A equipe Meca Devs deseja através dos seus produtos garantir autonomia e segurança aos seus clientes. Através de parcerias pretende viabilizar verbas para capacitação de novos profissionais, também trazendo ênfase na sustentabilidade aplicando novas tecnologias, como a tecnologia de impressão 3D, empregada no nosso mais novo produto Medic Dropper o PLA (filamento da impressora) o que permite com que grande parte do projeto seja biodegradável e biocompostável</p>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <a id="btnm" href="https://mecadevs.onrender.com/medic_dropper">MEDIC DROPPER</a>
-                    </div>
-                </section>
-            </div>
-        </header>
-    </body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MecaDevs</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/test.css')}}">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="https://raw.githubusercontent.com/MecaDevs/mecadevs/main/imgs/MecaDevs%20logo.png" alt="Logo do site">
+        </div>
+      <ul class="menu">
+        <li><a href="https://mecadevs.onrender.com">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="https://mecadevs.onrender.com/parceiros">Parceiros</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Seja bem-vindo ao site MecaDevs</h1>
+      <p>Conheça o Medic Dropper, nosso mais novo produto!!</p>
+      <a href="https://mecadevs.onrender.com/medic_dropper" class="btn">Medic Dropper</a>
+    </div>
+  </section>
+  <section class="services">
+    <h2>Nossos Serviços</h2>
+    <div class="service">
+      <i class="fas fa-code"></i>
+      <h3>Criação de equipamentos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-mobile-alt"></i>
+      <h3>Automação de processos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-chart-bar"></i>
+      <h3>Desenvolvimento de projetos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 MecaDevs. Todos os direitos reservados.</p>
+  </footer>
+</body>
 </html>

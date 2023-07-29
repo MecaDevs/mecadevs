@@ -15,5 +15,9 @@ def medic_dropper_home_page():
 def parceiros_home_page():
     return render_template("parceiros_home_page.html")
 
+@app.route("/test")
+def test():
+    return render_template("test.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
