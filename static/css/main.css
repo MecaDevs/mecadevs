@@ -112,3 +112,22 @@ nav ul a {
     text-align: center;
     font-size: 1.3em;
 }
+
+.parceiros-text {
+    text-align: center;
+}
+
+#logo-katrin {
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 5px;
+}
+
+.katrin-text {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+}
